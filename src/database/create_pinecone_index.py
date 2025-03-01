@@ -1,7 +1,10 @@
+import os
+import sys
+src_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), "../..", "src"))
+sys.path.append(src_directory)
 from pinecone import Pinecone, ServerlessSpec
 from dotenv import load_dotenv
 import time
-import os
 from transformers import AutoProcessor, CLIPModel
 from data import dataset,request_method
 
