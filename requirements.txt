@@ -4,4 +4,8 @@ pandas
 Pillow
 transformers
 torch
+torchaudio
 torchvision
+transformers
+pinecone
+dotenv
