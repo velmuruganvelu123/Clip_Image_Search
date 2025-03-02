@@ -8,8 +8,8 @@ import time
 from transformers import AutoProcessor, CLIPModel
 from data import dataset,request_method
 
-# os.environ.pop("HF_TOKEN", None)
-# os.environ.pop("HUGGING_FACE_HUB_TOKEN", None)
+os.environ.pop("HF_TOKEN", None)
+os.environ.pop("HUGGING_FACE_HUB_TOKEN", None)
 
 load_dotenv()
 
